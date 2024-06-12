@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: black
+}
+
+.flex-container {
+    display: flex; 
+    background-color: white;
+    flex-direction: row-reverse;
+}
+
+.flex-container > div{
+    background-color: orange;
+    margin: 20px;
+    padding: 20px;
+    font-size: 4em;
+}
